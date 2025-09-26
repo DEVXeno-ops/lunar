@@ -1,4 +1,3 @@
-````markdown
 # 🌙 Lunar
 
 **Lunar** is a neural-network-powered aim assist that uses real-time object detection accelerated with CUDA on NVIDIA GPUs.
@@ -7,12 +6,12 @@
 
 ## 📝 About
 
-Lunar can be adapted to work with a variety of FPS games; however, it is currently configured for **Fortnite**.  
-Unlike memory-injection tools, Lunar does **not** interact with the memory of other processes.  
+Lunar can be adapted to work with many FPS games; however, it is currently configured for **Fortnite**.  
+Unlike traditional memory-injection tools, Lunar does **not** access or modify the memory of other processes.
 
-Player detection is based on the [YOLOv5](https://github.com/ultralytics/yolov5) architecture written in **PyTorch**.
+Player detection is based on the [YOLOv5](https://github.com/ultralytics/yolov5) architecture implemented in **PyTorch**.
 
-📺 A (currently outdated) demo video is available [here](https://www.youtube.com/watch?v=XDAcQNUuT84).
+📺 A (currently outdated) demo video can be found [here](https://www.youtube.com/watch?v=XDAcQNUuT84).
 
 ![thumbnail](https://user-images.githubusercontent.com/45726273/126563920-193ca8df-de70-4a91-81ec-d781ee961332.png)
 
@@ -21,10 +20,11 @@ Player detection is based on the [YOLOv5](https://github.com/ultralytics/yolov5)
 ## ⚙️ Installation
 
 1. Install [Python 3.8 or later](https://www.python.org/downloads/).
-2. In the root directory of the project, install the required dependencies:
+2. In the project’s root directory, install the required dependencies:
 
 ```bash
 pip install -r requirements.txt
+
 ````
 
 ---
